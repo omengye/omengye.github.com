@@ -9,7 +9,7 @@
   <meta name="author" content="omengye">
 
   
-  <meta name="description" content="About Me May 1st, 2012 即将变成死研之数学专业学生一枚，不学无术，爱幻想，爱自由，爱钢琴曲、纯音乐，特爱折腾，电子器械控，Gentoo控，妄想成为一名enginer。 id : @omengye ; QQ : 786675423 ; Mail: omengye@yeah. &hellip;">
+  <meta name="description" content="About Me May 1st, 2012 数学专业，不学无术，爱幻想，爱自由，爱钢琴曲、纯音乐，特爱折腾，电子器械控，Gentoo控，妄想成为一名enginer。 Id: @omengye ; QQ: 786675423 ; Mail: ym2008love@gmail.com May &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://omengye.github.com/about-me">
+  <link rel="canonical" href="http://omengye.github.com/about">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -57,6 +57,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
 </ul>
 
 </nav>
@@ -79,12 +80,12 @@
   
 
 
-<time datetime="2012-05-01T17:07:00+08:00" pubdate data-updated="true">May 1<span>st</span>, 2012</time></p>
+<time datetime="2012-05-01T18:08:00+08:00" pubdate data-updated="true">May 1<span>st</span>, 2012</time></p>
   </header>
   
-  <h3>即将变成死研之数学专业学生一枚，不学无术，爱幻想，爱自由，爱钢琴曲、纯音乐，特爱折腾，电子器械控，Gentoo控，妄想成为一名enginer。</h3>
+  <h3>数学专业，不学无术，爱幻想，爱自由，爱钢琴曲、纯音乐，特爱折腾，电子器械控，Gentoo控，妄想成为一名enginer。</h3>
 
-<h4>id : @omengye ; QQ : 786675423 ; Mail: omengye@yeah.net</h4>
+<h4>Id: @omengye ; QQ: 786675423 ; Mail: ym2008love@gmail.com</h4>
 
   
     <footer>
@@ -102,14 +103,16 @@
   
 
 
-<time datetime="2012-05-01T17:07:00+08:00" pubdate data-updated="true">May 1<span>st</span>, 2012</time>
+<time datetime="2012-05-01T18:08:00+08:00" pubdate data-updated="true">May 1<span>st</span>, 2012</time>
         
       </p>
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://omengye.github.com/about-me/index.html" data-via="" data-counturl="http://omengye.github.com/about-me/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://omengye.github.com/about/index.html" data-via="omengye" data-counturl="http://omengye.github.com/about/index.html" >Tweet</a>
   
+  
+  <div class="g-plusone" data-size="medium"></div>
   
   
 </div>
@@ -134,8 +137,62 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/omengye">@omengye</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'omengye',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("omengye", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/omengye" class="twitter-follow-button" data-show-count="false">Follow @omengye</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/113906953899197734253?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -156,6 +213,14 @@
 
 
 
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
