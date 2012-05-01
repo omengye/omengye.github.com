@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://omengye.github.com
-title: Gentoo-Linux
+title: My Octopress Blog
 subtitle: A blogging framework for hackers.
-author: omengye
+author: Your Name
 simple_search: http://google.com/search
-description: 这年头日子过着不容易啊
+description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
