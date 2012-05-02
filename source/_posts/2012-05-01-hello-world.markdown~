@@ -5,3 +5,18 @@ date: 2012-05-01 16:37
 comments: true
 categories: 
 ---
+
+{% tag_cloud [counter:true] %}
+test
+{% endtag_cloud %}
+
+{% category_list [counter:true] %}
+test
+{% endcategory_list %}
+
+### hello world! 
+#### this is a test
+
+{% codeblock lang:objc test %}
+hello world!
+{% endcodeblock %}
